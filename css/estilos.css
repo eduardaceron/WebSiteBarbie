@@ -1,0 +1,59 @@
+@font-face {
+    font-family: holiday;
+    src: url(HolidaySweetLovely.ttf);
+}
+
+:root {
+    --cor-fundo:#ffffff;
+    --cor-título:#F059B8;
+    --font: holiday;
+    --cor-paragrafo:#fff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    width: 2000px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body p {
+    color: var(--cor-paragrafo);
+    text-align:justify;
+}
+
+div {
+    text-align: center;
+}
+
+h1 {
+    color:#F059B8;
+    font-family: var(--font);
+    font-size: 60px;
+}
+
+h2 {
+    color:#F059B8;
+    font-family: var(--font);
+}
+
+img.logo {
+    width: 300px;
+}
+
+img.barbie {
+    width: 295px;
+    height: 200px;
+}
+
+.rosa {
+    background-color: #ffb6c1;
+    padding: 10px;
+    text-align: center;
+}
+
+.verde {
+    background-color: #afffff;
+    padding: 10px;
+}
